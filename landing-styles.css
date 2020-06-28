@@ -73,7 +73,7 @@ main {
 .beacon {
     position: static;
     list-style-type: none;
-    background-image: url(/ch-1-images/main-background.jpg);
+    background-image: url(./ch-1-images/main-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 2%;
@@ -291,11 +291,10 @@ footer {
     }
 
     .beacon {
-        
         margin-top: -10%;
         margin-right: -15%;
         list-style-type: none;
-        background-image: url(./ch-1-images/main-background.png);
+        background-image: url(./ch-1-images/main-background.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
