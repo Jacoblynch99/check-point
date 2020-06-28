@@ -148,6 +148,58 @@ footer {
     .logo {
         width: 110%;
     }   
+
+    .form {
+        background-color: beige;
+        grid-column: 1/4;
+        border-radius: 2%;
+        text-align: center;
+        margin-bottom: 2%;
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+    
+    .div-one {
+        padding-left: 25%;
+        padding-right: 0%;
+        padding-bottom: 5%;
+        width: 50%;
+    }
+    
+    .div-two {
+        padding-left: 25%;
+        padding-right: 0%;
+        padding-bottom: 5%;
+        width: 50%;
+    }
+    
+    .div-three {
+        padding-left: 25%;
+        padding-right: 0%;
+        padding-bottom: 5%;
+        width: 50%;
+    }
+    
+    .div-four {
+        padding-left: 25%;
+        padding-right: 0%;
+        padding-bottom: 10%;
+        width: 50%;
+    }
+    
+    .div-five {
+        padding-left: 25%;
+        padding-right: 0%;
+        padding-bottom: 5%;
+        width: 50%;
+    }
+    
+    .div-six {
+        padding-left: 25%;
+        padding-right: 0%;
+        padding-bottom: 5%;
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -162,6 +214,7 @@ footer {
     header{ 
         grid-template-columns: 1fr;
         grid-template-rows: 3fr 3fr;
+        margin-bottom: -10%;
     }
 
     .logo {
@@ -185,6 +238,7 @@ footer {
         grid-template-rows: repeat(5, 1fr);
         height: 170px;
         width: 30%;
+        z-index: 100;
     }
 
     
@@ -214,8 +268,60 @@ footer {
         display: block;
     }
 
+    .form {
+        background-color: beige;
+        grid-column: 1/4;
+        border-radius: 2%;
+        text-align: center;
+        margin-bottom: 2%;
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+    
+    .div-one {
+        padding-left: 25%;
+        padding-right: 0%;
+        padding-bottom: 5%;
+        width: 50%;
+    }
+    
+    .div-two {
+        padding-left: 25%;
+        padding-right: 0%;
+        padding-bottom: 5%;
+        width: 50%;
+    }
+    
+    .div-three {
+        padding-left: 25%;
+        padding-right: 0%;
+        padding-bottom: 5%;
+        width: 50%;
+    }
+    
+    .div-four {
+        padding-left: 25%;
+        padding-right: 0%;
+        padding-bottom: 15%;
+        width: 50%;
+    }
+    
+    .div-five {
+        padding-left: 25%;
+        padding-right: 0%;
+        padding-bottom: 5%;
+        width: 50%;
+    }
+    
+    .div-six {
+        padding-left: 25%;
+        padding-right: 0%;
+        padding-bottom: 5%;
+        width: 50%;
+    }
+
     footer {
-        margin-top: 100%;
+        margin-top: 0%;
     }
 
 }

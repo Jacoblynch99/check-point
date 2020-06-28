@@ -267,6 +267,7 @@ footer {
         grid-template-rows: repeat(5, 1fr);
         height: 170px;
         width: 30%;
+        z-index: 100;
     }
 
     
