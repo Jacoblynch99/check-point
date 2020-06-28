@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="all-contact.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="display-grid">
+        <div class="div-img">
+            <img src="/ch-1-images/beard-logo.png" class="logo">
+        </div>
+        <nav id="nav" class="nav-mobile div-nav">
+            <span class="open" onclick="handleClick()">&#9776</span>
+            <ul id="open" class="nav-bar">
+                <li class="uppercase nav-li">
+                    <a class="a-tag" href="/index.html">home</a>
+                </li>
+                <li class="uppercase nav-li">
+                    <a class="a-tag" href="/ch-1-about/about.html">about</a>
+                </li>
+                <li class="uppercase nav-li">
+                    <a class="a-tag" href="/ch-1-gallery/gallery.html">gallery</a>
+                </li>
+                <li class="uppercase nav-li">
+                    <a class="a-tag" href="/ch-1-blogs/blogs.html">blog</a>
+                </li>
+                <li class="uppercase nav-li">
+                    <a class="a-tag" href="/ch-1-contact/contact.html">contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container display-grid">
+        
+            <form class="display form" action="results.html" method="GET" enctype="multipart/form-data">
+                <div class="div-one display-grid">
+                <h1>Contact Me</h1>
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="Last Name, First Name" >
+            </div>
+            <div class="div-two display-grid">
+                <label class="email" for="email"></label>
+                <input class="email-box" type="email" placeholder="Email" required><br>
+            </div>
+            <div class="div-three display-grid">
+                <label for="age"></label>
+                <input type="number" name="age" id="age" step="5" placeholder="Age" required>
+            </div>
+            </div>
+            <div class="div-four display-grid">
+                <label for="comments"></label>
+                <textarea minlength="20" maxlength="500" id="comments" name="comments" placeholder="Message(optional)" style="height: 200%;"></textarea>
+            </div>
+            <input type="hidden" name="hidden" value="hi">
+            <div class="div-five display-grid">
+                <label for="phone"></label>
+                <input type="tel" name="phone" id="phone" placeholder="Phone Number (optional)">
+            </div>
+            <div class="div-six display-grid">
+            <button class="submit" type="submit">Submit</button>
+            </div>
+            </form>
+    </main>
+    <footer>
+        <div class= "footer-text">
+            <p> &#9400 You can't touch this</p> 
+            <div class="social-links">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/jacob-lynch-7696271a9/"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram-square fa-2x"></i></a>
+                <a href="https://github.com/"><i class="fab fa-github-square fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
